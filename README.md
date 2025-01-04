@@ -1,0 +1,3 @@
+# Stack Overflow in Recursive Function
+This example demonstrates a common error in recursive functions: stack overflow. The `MyMethod` function recursively calls itself without a proper base case to handle large inputs, leading to excessive stack usage and a `StackOverflowException`.
+The solution involves adding a check to prevent infinite recursion, either by limiting the recursion depth or using an iterative approach.
